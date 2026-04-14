@@ -13,7 +13,7 @@ Integrarea foloseste API ANM de pe site-ul https://www.meteoromania.ro/ pentru a
 
 3. Configurare
 
-Componenta va crea automat 2 senzori pentru fiecare judet selectat, binary_sensor.avertizare_anm_judet si sensor.avertizare_anm_judet
+Componenta va crea automat 2 senzori pentru fiecare judet selectat, binary_sensor.avertizare_anm_judet si sensor.avertizare_anm_judet.
 Se pot adauga oricate judete doriti din configurarea integrarii.
 Se poate seta intervalul de preluare al datelor (Implicit; 15 minute).
 Senzorul binar este de tip safety si poate fi folosit ca trigger pentru automatizari.
