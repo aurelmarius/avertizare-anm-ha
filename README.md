@@ -43,7 +43,7 @@ Exemplu dashboard simplu:
       ✅ Momentan nu există avertizări meteorologice pentru acest județ.
       {% endif %}
 
-![Preview](https://raw.githubusercontent.com/aurelmarius/avertizare-anm-ha/refs/heads/main/.github/img/IMG_PREV.png)
+![Preview](https://raw.githubusercontent.com/aurelmarius/avertizare-anm-ha/refs/heads/main/.github/img/anm_dash.png)
 
 Exemplu automatizare:
 
