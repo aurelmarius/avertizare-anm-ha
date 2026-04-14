@@ -1,4 +1,4 @@
-# avertizare-anm-ha
+# Avertizare meteorologica ANM Home Assistant
 Integrare avertizari meteo in Home Assistant
 
 1. Despre
