@@ -1,11 +1,11 @@
 {
   "domain": "avertizare_anm",
-  "name": "Avertizare ANM Romania",
-  "version": "1.0.0",
-  "documentation": "https://www.meteoromania.ro",
+  "name": "Avertizare ANM",
+  "codeowners": ["@aurelmarius"],
+  "config_flow": true,
   "dependencies": [],
-  "codeowners": [],
-  "requirements": [],
+  "documentation": "https://github.com/aurelmarius/avertizare-anm-ha",
   "iot_class": "cloud_polling",
-  "config_flow": true
+  "requirements": [],
+  "version": "1.0.0"
 }
