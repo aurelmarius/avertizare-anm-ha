@@ -27,7 +27,7 @@ Exemplu dashboard simplu:
 	type: markdown
     title: ⛈️ Avertizări Meteo ANM
     content: |2-
-      {% set avertizari = state_attr('sensor.avertizare_anm_cs', 'avertizari') %}
+      {% set avertizari = state_attr('sensor.avertizare_anm_cs', 'avertizari') %} # Inlocuieste sensor.avertizare_anm_cs cu numele senzorului tau
       {% if avertizari %}
       {% for alerta in avertizari %}
       ### ⚠️ Cod {{ alerta.stare | capitalize }}
