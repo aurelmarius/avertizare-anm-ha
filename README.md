@@ -15,7 +15,7 @@ a) Prin HACS:
 
 b) Manual:
    - Descarcati acest repository in format zip.
-   - Copiati folderul alerta_anm in folderul /config/custom_components din Home Assistant
+   - Copiati folderul avertizare_anm in folderul /config/custom_components din Home Assistant
    - Reporniti Home Assistant
    - Adaugati integrarea din Settings > Devices & Services > Integrations > Add Integration
 
