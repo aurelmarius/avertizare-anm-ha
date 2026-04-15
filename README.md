@@ -6,12 +6,20 @@ Integrare avertizari meteo in Home Assistant
 Integrarea foloseste API ANM de pe site-ul https://www.meteoromania.ro/ pentru a prelua atentionarile meteorologice.
 
 2. Instalare
+   
+a) Prin HACS:
+- Adaugati urmatorul custom repository in HACS: https://github.com/aurelmarius/avertizare-anm-ha
+- Instalati Avertizare ANM
+- Reporniti Home Assistant
+- Adaugati integrarea din Settings > Devices & Services > Integrations > Add Integration
+
+b) Manual:
    - Descarcati acest repository in format zip.
    - Copiati folderul alerta_anm in folderul /config/custom_components din Home Assistant
    - Reporniti Home Assistant
    - Adaugati integrarea din Settings > Devices & Services > Integrations > Add Integration
 
-3. Configurare
+4. Configurare
 
 Componenta va crea automat 2 senzori pentru fiecare judet selectat, binary_sensor.avertizare_anm_judet si sensor.avertizare_anm_judet.
 Se pot adauga oricate judete doriti din configurarea integrarii.
